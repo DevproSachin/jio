@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,h3,h4,h2,h1,li{
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    height:100vh;
+    width:100vw;
+}
+body{
+    background-color: #000000de;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #111c25;
+    color: #fff;
+}
+.inner-left {
+    display: flex;
+    gap: 50px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    line-height: 36px;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu ul li {
+    list-style:none;
+    padding: 0px 10px;
+}
+.inner-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.inner-right input[type="text"] {
+    padding: 11px 34px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid gray;
+}
+.profile-avatar img {
+    width: 3vw;
+    height: 3vw;
+}
+
+/* .subtexts {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    text-align: center;
+} */
+.subtexts {
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 44px;
+    border-radius: 20px;
+}
+.slider-cont.slick-slide {
+    padding: 12px;
+}
+.slick-slide img {
+    display: block;
+    width: 100%;
+    border-radius:20px;
+}
+.subtexts h3 {
+    font-size: 40px;
+    color: #fff;
+}
+.subtexts h4 {
+    font-size: 20px;
+    color: #fff;
+}
+.active {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    
+}
+
+.post-banner .slick-next {
+    right: 100px;
+}
+.post-banner .slick-prev {
+    z-index: 999;
+    left: 88%;
+}
+
+.post-banner .slick-next, .slick-prev {
+    bottom: 0px !important;
+    top: unset !important;
+}
+.post-banner .slick-next:before, .post-banner .slick-prev:before {
+    font-family: slick;
+    font-size: 4vw;
+    font-weight:500;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hot_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+section.Hot_right_now {
+    padding: 10px 30px;
+    width:90%;
+}
+.hot_caption h2 {
+    font-size: 1.2vw;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.hot_cards img {
+    width: 100%;
+    border-radius: 20px;
+}
+section.top_sports_pick {
+    width: 100vw;
+    padding: 20px 40px;
+}
