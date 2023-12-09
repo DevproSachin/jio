@@ -103,8 +103,6 @@ hotcards.innerHTML = seeData;
 
 $(document).ready(function() {
     $('.sports_cards').slick({
-        autoplay: true,
-        arrows: true,
         infinite:true,
         slidesToShow: 4,
         slidesToScroll: 4,
@@ -190,3 +188,4 @@ menuItems.forEach((val) => {
         e.target.classList.add('active');
     });
 });
+
